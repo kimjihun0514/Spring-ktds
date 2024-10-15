@@ -1,0 +1,22 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+import com.ktdsuniversity.edu.hello_spring.member.vo.MemberVO;
+
+public class FileNotExistsException extends RuntimeException {
+
+	private static final long serialVersionUID = -3321624745595131158L;
+
+	private MemberVO memberVO;
+	
+	
+	public FileNotExistsException (MemberVO memberVO, String message) {
+		super(message);
+		this.memberVO = memberVO;
+	}
+
+	public MemberVO getMemberVO() {
+		return memberVO;
+	}
+	
+	
+}

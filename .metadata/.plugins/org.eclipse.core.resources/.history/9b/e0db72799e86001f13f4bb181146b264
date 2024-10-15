@@ -1,0 +1,17 @@
+package mate.usrtrrqstbbs.vo;
+
+import java.util.List;
+
+public class UsrTrRqstListVO {
+
+	private List<UsrTrRqstVO> usTrRqstList;
+
+	public List<UsrTrRqstVO> getUsTrRqstList() {
+		return usTrRqstList;
+	}
+
+	public void setUsTrRqstList(List<UsrTrRqstVO> usTrRqstList) {
+		this.usTrRqstList = usTrRqstList;
+	}
+
+}

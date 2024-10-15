@@ -1,0 +1,9 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+import com.ktdsuniversity.edu.hello_spring.member.vo.MemberVO;
+
+public class AlreadyUseException extends RuntimeException {
+
+	private MemberVO memberVO;
+	
+}

@@ -1,0 +1,30 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+import com.ktdsuniversity.edu.hello_spring.member.vo.MemberVO;
+
+public class AlreadyUseException extends RuntimeException {
+
+	
+	private static final long serialVersionUID = 356545585441520026L;
+	
+	private MemberVO memberVO;
+	
+	
+	public AlreadyUseException (MemberVO memberVO, String message) {
+		super(message);
+		this.memberVO = memberVO;
+	}
+
+
+	public MemberVO getMemberVO() {
+		return memberVO;
+	}
+
+
+	public void setMemberVO(MemberVO memberVO) {
+		this.memberVO = memberVO;
+	}
+	
+	
+	
+}

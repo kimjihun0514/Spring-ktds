@@ -1,0 +1,12 @@
+package mate.bbs.usrtrrqst.web;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class UsrTrRqstController {
+
+	public String view() {
+		return "";
+	}
+	
+}

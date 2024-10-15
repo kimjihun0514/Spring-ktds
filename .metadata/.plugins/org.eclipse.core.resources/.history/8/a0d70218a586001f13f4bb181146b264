@@ -1,0 +1,23 @@
+package mate.usrtrrqstbbs.dao;
+
+import java.util.List;
+
+import mate.usrtrrqstbbs.vo.UsrTrRqstModifyVO;
+import mate.usrtrrqstbbs.vo.UsrTrRqstVO;
+import mate.usrtrrqstbbs.vo.UsrTrRqstWriteVO;
+
+public interface UsrTrRqstDao {
+
+	public String NAMESPACE = "mate.usrtrrqstbbs.dao.UsrTrRqstDao";
+	
+	public int insertNewUsrTr(UsrTrRqstWriteVO usrTrRqstWriteVO);
+	
+	public int updateUsrTr(UsrTrRqstModifyVO usrTrRqstModifyVO);
+	
+	public int updateUsrTrIsDltAndDltDt(String usrTrPstId);
+	
+	public List<UsrTrRqstVO> selectAllUsrTrList();
+	
+	public UsrTrRqstVO selectOneUsrTrRqst(String usrTrPstId);
+	
+}

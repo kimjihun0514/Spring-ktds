@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.grid {
+	display: grid;
+	grid-template-columns: 120px 1fr;
+	grid-template-rows: 28px 28px 1fr;
+	row-gap: 10px;
+}
+
+.grid > div.btn-group {
+	display: grid;
+	grid-column: 1 / -1;
+}
+
+.grid > div.btn-group > div.right-align {
+	text-align: right;
+}
+
+label {
+	padding-left: 10px;
+}
+
+button, input {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.regist {
+	display: block;
+	background-color: #000;
+	padding: 10px;
+	color: #fff;
+	width: 6rem;
+}
+
+.error {
+  font-size: 0.8rem;
+  color: #a00;
+}
+
+.error:last-child {
+	margin-bottom: 15px;
+}

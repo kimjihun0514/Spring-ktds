@@ -1,0 +1,9 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+import java.util.List;
+
+public class ReplyListVO {
+
+	private List<ReplyVO> replyList;
+	
+}

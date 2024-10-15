@@ -1,0 +1,24 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao;
+
+import java.util.List;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ModifyReplyVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyListVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteReplyVO;
+
+public interface ReplyDao {
+
+	public String NAMESPACE = "";
+	
+	public List<ReplyListVO> selectAllReply(int boardId);
+	
+	public ReplyVO selectOneReply(int boardId);
+	
+	public int insertNewReply(WriteReplyVO writeReplyVO);
+	
+	public int deleteOneReply(int replyId);
+	
+	public int updateOneReply(ModifyReplyVO modifyReplyVO);
+	
+}

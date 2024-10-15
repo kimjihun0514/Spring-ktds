@@ -1,0 +1,55 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao.impl;
+
+import java.util.List;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.mybatis.spring.support.SqlSessionDaoSupport;
+import org.springframework.stereotype.Repository;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.ReplyDao;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ModifyReplyVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyListVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteReplyVO;
+
+@Repository
+public class ReplyDaoImpl extends SqlSessionDaoSupport implements ReplyDao {
+
+	@Override
+	public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
+		super.setSqlSessionTemplate(sqlSessionTemplate);
+	}
+	
+	@Override
+	public List<ReplyListVO> selectAllReply(int boardId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ReplyVO selectOneReply(int boardId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int insertNewReply(WriteReplyVO writeReplyVO) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteOneReply(int replyId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int updateOneReply(ModifyReplyVO modifyReplyVO) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+	
+}

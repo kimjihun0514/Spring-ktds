@@ -1,0 +1,5 @@
+package mate.bbs.usrtrrqst.web;
+
+public class UsrTrRqstController {
+
+}

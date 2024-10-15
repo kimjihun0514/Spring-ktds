@@ -1,0 +1,8 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+public class DeleteBoardVO {
+
+	private String id;
+	private String email;
+	
+}

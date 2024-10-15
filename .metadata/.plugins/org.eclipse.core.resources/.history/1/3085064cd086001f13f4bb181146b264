@@ -1,0 +1,9 @@
+package com.ktdsuniversity.edu.hello_spring.common.beans;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+
+public class AddAccessLogHistoryInterceptor implements HandlerInterceptor{
+
+	
+	
+}

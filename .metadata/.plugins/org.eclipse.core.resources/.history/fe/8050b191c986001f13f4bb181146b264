@@ -1,0 +1,6 @@
+$().ready(function (){
+	
+	var pathname = location.pathname;
+	
+	$("input[name=nextUrl]").val();
+});

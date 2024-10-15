@@ -1,0 +1,45 @@
+package com.ktdsuniversity.edu.hello_spring.common.beans;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/**
+ * 요청과 응답을 가로채는 인터셉터
+ */
+public class CheckSessionInterceptor implements HandlerInterceptor {
+
+	/**
+	 * Controller 가 실행 되기 전에 실행 되는 Handler
+	 */
+	@Override
+	public boolean preHandle(HttpServletRequest request
+						, HttpServletResponse response
+						, Object handler)
+			throws Exception {
+		
+		System.out.println("CheckSessionInterceptor.preHandle : " + handler);
+		return true;
+	}
+	
+	@Override
+	public void postHandle(HttpServletRequest request
+						, HttpServletResponse response
+						, Object handler
+						, ModelAndView modelAndView) 
+			throws Exception {
+		HandlerInterceptor.super.postHandle(request, response, handler, modelAndView);
+	}
+	
+	@Override
+	public void afterCompletion(HttpServletRequest request
+						, HttpServletResponse response
+						, Object handler
+						, Exception ex)
+			throws Exception {
+		HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
+	}
+	
+}

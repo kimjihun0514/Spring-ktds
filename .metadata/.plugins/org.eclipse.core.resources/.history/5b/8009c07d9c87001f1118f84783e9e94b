@@ -1,0 +1,22 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+import com.ktdsuniversity.edu.hello_spring.member.vo.MemberVO;
+
+public class MakeXlsxFileException extends RuntimeException {
+
+	private static final long serialVersionUID = 268101011537716204L;
+
+	private MemberVO memberVO;
+	
+	
+	public MakeXlsxFileException (MemberVO memberVO, String message) {
+		super(message);
+		this.memberVO = memberVO;
+	}
+
+	public MemberVO getMemberVO() {
+		return memberVO;
+	}
+	
+	
+}

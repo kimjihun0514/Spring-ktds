@@ -1,0 +1,17 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+public class ModifyReplyVO {
+
+	private int replyId;
+	private String content;
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	
+}

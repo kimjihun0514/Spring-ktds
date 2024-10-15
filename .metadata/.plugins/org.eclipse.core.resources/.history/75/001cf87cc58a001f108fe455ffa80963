@@ -1,0 +1,7 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+public class AjaxException extends RuntimeException{
+
+	
+	
+}

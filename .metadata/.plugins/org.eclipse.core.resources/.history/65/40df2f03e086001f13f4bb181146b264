@@ -1,0 +1,5 @@
+package com.ktdsuniversity.edu.todo_list.common.beans;
+
+public class CheckSessionInterceptor {
+
+}

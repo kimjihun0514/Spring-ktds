@@ -1,0 +1,18 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+public class ModifyReplyVO {
+
+	private String content;
+	private int recommendCnt;
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	
+	
+}

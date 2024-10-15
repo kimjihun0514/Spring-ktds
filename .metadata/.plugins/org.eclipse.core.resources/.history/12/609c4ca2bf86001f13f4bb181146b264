@@ -1,0 +1,12 @@
+package com.ktdsuniversity.edu.hello_spring.common.beans;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+
+/**
+ * 요청과 응답을 가로채는 인터셉터
+ */
+public class CheckSessionInterceptor implements HandlerInterceptor {
+
+	
+	
+}

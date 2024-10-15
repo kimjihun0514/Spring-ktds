@@ -1,0 +1,13 @@
+package com.ktdsuniversity.edu.hello_spring.common.utils;
+
+import java.util.Map;
+
+import org.springframework.validation.BindingResult;
+
+public final class ErrorMapUtil {
+
+	public static Map<String, Object> getErrorMap(BindingResult bindingResult) {
+		
+	}
+	
+}

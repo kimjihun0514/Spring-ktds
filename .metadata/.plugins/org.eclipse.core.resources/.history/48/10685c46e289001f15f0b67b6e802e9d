@@ -1,0 +1,14 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+public class ReplyVO {
+
+	replyId
+	boardId
+	email
+	content
+	crtDt
+	mdfyDt
+	recommendCnt
+	parentReplyId
+	
+}
