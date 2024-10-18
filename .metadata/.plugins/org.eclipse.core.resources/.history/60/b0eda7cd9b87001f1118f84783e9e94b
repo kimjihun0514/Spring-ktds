@@ -1,7 +1,0 @@
-package com.ktdsuniversity.edu.hello_spring.common.exceptions;
-
-public class AlreadyUseException extends RuntimeException {
-
-	private MemberVO memberVO;
-	
-}

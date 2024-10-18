@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Devs\\Workspace\\hello-spring_chapter_09_code_validation\\.git;C\:\\Devs\\Workspace\\hello-spring_chapter_05\\.git;C\:\\Devs\\Workspace\\hello-spring_chapter_09_spring_validation\\.git;
-GitRepositoriesView.GitDirectories.relative=hello-spring_chapter_09_code_validation\\.git;hello-spring_chapter_05\\.git;hello-spring_chapter_09_spring_validation\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Devs\\Workspace\\hello-spring_chapter_09_code_validation\\.git;C\:\\Devs\\Workspace\\hello-spring_chapter_05\\.git;C\:\\Devs\\Workspace\\hello-spring_chapter_09_spring_validation\\.git;C\:\\Devs\\Workspace\\.git;
+GitRepositoriesView.GitDirectories.relative=hello-spring_chapter_09_code_validation\\.git;hello-spring_chapter_05\\.git;hello-spring_chapter_09_spring_validation\\.git;.git;
 core_autoIgnoreDerivedResources=false
 core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1

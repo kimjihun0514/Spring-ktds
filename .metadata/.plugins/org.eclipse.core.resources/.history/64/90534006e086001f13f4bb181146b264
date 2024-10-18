@@ -1,7 +1,0 @@
-package com.ktdsuniversity.edu.todo_list.common.beans;
-
-import org.springframework.web.servlet.HandlerInterceptor;
-
-public class CheckSessionInterceptor implements HandlerInterceptor{
-
-}

@@ -1,8 +1,0 @@
-package com.ktdsuniversity.edu.todo_list.bbs.vo;
-
-public class UpdateAndDeleteTodoVO {
-
-	private int id;
-	private String email;
-	
-}

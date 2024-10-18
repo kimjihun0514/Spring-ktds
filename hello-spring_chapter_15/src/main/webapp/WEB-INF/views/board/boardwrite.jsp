@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%> 
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+pageEncoding="UTF-8"%> <%@ taglib prefix="form"
+uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,16 +11,22 @@ pageEncoding="UTF-8"%>
   <body>
     <h1>게시글 작성</h1>
 
-    <form:form modelAttribute="writeBoardVO" method="post" enctype="multipart/form-data">
+    <form:form
+      modelAttribute="writeBoardVO"
+      method="post"
+      enctype="multipart/form-data">
       <div class="grid">
         <label for="subject">제목</label>
         <div>
-        	<form:errors path="subject" element="div" cssClass="error" /> <!-- <div class="error"> subject의 유효성 검사 </div> -->
-        	<input id="subject" type="text" name="subject" value="${writeBoardVO.subject}" />
-		</div>
-        
-        
-        
+          <form:errors path="subject" element="div" cssClass="error" />
+          <!-- <div class="error"> subject의 유효성 검사 </div> -->
+          <input
+            id="subject"
+            type="text"
+            name="subject"
+            value="${writeBoardVO.subject}" />
+        </div>
+
         <label for="file">첨부파일</label>
         <input type="file" type="file" name="file" />
 

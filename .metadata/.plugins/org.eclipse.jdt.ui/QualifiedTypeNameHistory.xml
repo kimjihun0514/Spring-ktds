@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.todo_list.member.dao.MemberDao"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.todo_list.member.service.MemberService"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.todo_list.member.vo.RegistMemberVO"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteBoardVO"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
-    <fullyQualifiedTypeName name="org.springframework.web.context.request.RequestContextHolder"/>
-    <fullyQualifiedTypeName name="org.springframework.web.context.request.ServletRequestAttributes"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.todo_list.member.vo.LoginMemberVO"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.utils.RequestUtil"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.mybatis.spring.support.SqlSessionDaoSupport"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.todo_list.access.dao.AccessLogDao"/>
@@ -30,10 +20,8 @@
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.vo.DeleteBoardVO"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.todo_list.bbs.vo.UpdateAndDeleteTodoVO"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.SessionAttribute"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.web.BoardController"/>
@@ -42,9 +30,7 @@
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.UserIdendifyNotMatchException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.PageNotFoundException"/>
-    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.handler.GlobalExceptionHandler"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.UserIdentifyNotMatchException"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.MakeXlsxFileException"/>
@@ -54,10 +40,24 @@
     <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotBlank"/>
     <fullyQualifiedTypeName name="org.hibernate.validator.constraints.Length"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.utils.ErrorMapUtil"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.AjaxException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.vo.SearchBoardVO"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.vo.PaginationVO"/>
+    <fullyQualifiedTypeName name="org.springframework.web.socket.config.annotation.WebSocketConfigurer"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.springframework.web.socket.handler.TextWebSocketHandler"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.ws.handler.HelloSpringWebSocketHandler"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="org.springframework.web.socket.WebSocketSession"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
 </qualifiedTypeNameHistroy>

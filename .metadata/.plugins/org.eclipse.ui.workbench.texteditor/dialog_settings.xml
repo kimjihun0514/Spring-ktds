@@ -8,16 +8,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="아이디"/>
+		<item key="selection" value="김지훈"/>
 		<list key="findhistory">
+			<item value="page-"/>
+			<item value="// Map 을 JSON으로 바꿔서 textMessage 객체로 만듬"/>
+			<item value="김지훈"/>
+			<item value="메시지"/>
 			<item value="CheckSessionInterceptor"/>
 			<item value="CheckSessionInterceptor.preHandle"/>
 			<item value="ia"/>
 			<item value="post"/>
-			<item value="_d"/>
-			<item value="_t"/>
-			<item value="fileName"/>
-			<item value="삭제"/>
 		</list>
 		<list key="replacehistory">
 			<item value="ai"/>

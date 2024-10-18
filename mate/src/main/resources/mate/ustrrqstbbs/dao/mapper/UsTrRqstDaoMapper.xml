@@ -4,5 +4,19 @@
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mate.bbs.usrtrrqst.dao.UsrTrRqstDao">
   <!-- 쿼리 작성 -->
+	<resultMap id="usrTrRqstVOMap"
+			   type="mate.bbs.usrtrrqst.vo.UsrTrRqstVO"
+			   autoMapping="true">
+		<id column="USR_TR_PST_ID" property="usrTrPstId" />
+		<association property="userInfVO"
+					 javaType=""
+					 autoMapping="true">
+			<id column="USR_ID" property="usrId"/>			 
+		</association>
+		<collection property="">
+			
+		</collection>
+	</resultMap>
+	
 
 </mapper>

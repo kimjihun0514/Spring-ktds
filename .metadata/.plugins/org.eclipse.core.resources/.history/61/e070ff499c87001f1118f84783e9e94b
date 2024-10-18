@@ -1,7 +1,0 @@
-package com.ktdsuniversity.edu.hello_spring.common.exceptions;
-
-public class UserIdendifyNotMatchException extends RuntimeException {
-
-	private static final long serialVersionUID = -7086532449996918719L;
-
-}

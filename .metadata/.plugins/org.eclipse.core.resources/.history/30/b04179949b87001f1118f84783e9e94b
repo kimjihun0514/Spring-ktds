@@ -1,5 +1,0 @@
-package com.ktdsuniversity.edu.hello_spring.exceptions;
-
-public class PageNotFoundException {
-
-}
